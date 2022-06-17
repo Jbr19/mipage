@@ -1,0 +1,134 @@
+.encabezado_inicial {
+    background: #9b9b9b;
+    display: flex;
+    grid-template-columns: auto;
+    padding: 10px;
+    justify-content: center
+}
+
+
+
+.encabezado {
+    background: #9b9b9b;
+    display: flex;
+    grid-template-columns: auto;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #d9d9d9;
+    border-radius: 4px;
+
+}
+
+
+#portada {
+    width: 100%;
+}
+
+#facebook {
+    position: absolute;
+    top: 38px;
+    right: 22px;
+}
+
+
+.container {
+    background: #9b9b9b;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+}
+
+
+
+#linea2 {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#cuadro_a_2{
+    background-color: #d9d9d9;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.info {
+    background: #9b9b9b;
+    display: flex;
+    grid-template-columns: auto;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+
+
+#contenido1 {
+    background-color: #d9d9d9;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 3px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#creacion {
+    width: 213px;
+}
+
+p {
+    border-style: inset;
+}
+
+#contenido2 {
+    background-color: #d9d9d9;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 3px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px
+}
+
+#escritorio {
+    width: 216px;
+}
+
+#contenido3 {
+    background-color: #d9d9d9;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 3px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#laptop {
+    width: 213px;
+}
+
+.fontapie {
+    display: flex;
+    grid-template-columns: auto;
+    background: url(/imagenes/bg.jpg);
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logotipo2 {
+    height: 176px;
+    border-radius: 100px;
+    background-color: #d9d9d9;
+
+}
+
+#copyrite {
+    color: white;
+}

@@ -1,0 +1,33 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    
+    #cuadro_a_2 {
+        display: grid;
+
+        text-align: center;
+
+    }
+    
+    
+    
+    
+    .info{
+        display: grid;
+    }
+
+    #contenido1 , #contenido2 {
+        margin-bottom: 7px;
+    }
+
+
+    .contactar{
+        display: grid;
+        grid-template-columns: auto;
+    
+    }
+
+    #mensaje {
+        width: 21rem;
+    }
+}
