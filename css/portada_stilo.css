@@ -115,7 +115,7 @@ p {
 .fontapie {
     display: flex;
     grid-template-columns: auto;
-    background: url(/imagenes/bg.jpg);
+    background-image: url("../imagenes/bg.jpg");
     padding: 10px;
     justify-content: space-around;
     align-items: center;
