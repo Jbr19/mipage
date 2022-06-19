@@ -27,14 +27,15 @@ nav {
 
 
 #portada {
-    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    flex-direction: column;
+    padding: 60px;
+    width: 72%;
+    background-image: url("../imagenes/portada1.png");
+    background-repeat: no-repeat;
 }
 
-#facebook {
-    position: absolute;
-    top: 38px;
-    right: 22px;
-}
 
 
 .container {

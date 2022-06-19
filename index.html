@@ -6,28 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/reset.css" rel="stylesheet">
-    <link href="css/resolucion_movil.css" rel="stylesheet">
     <link href="css/portada_stilo.css" rel="stylesheet">
     <link href="css/styloBotones.css" rel="stylesheet">
+    <link href="css/resolucion_movil.css" rel="stylesheet">
+    <link href="css/selector_links.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <header>
 
     <h1 class="encabezado_inicial">
-        <img id="portada" src="imagenes/portada1.png">
-        <a id="facebook" href="https://www.facebook.com/JBRComputerSolution"><img border="0" src="imagenes/facebook1.png" width="25" height="25"></a>
-        
-    </h1>
+        <div id="portada"></div>
+        </h1>
+        <h2 class="iconos">
+        <a id="facebook" href="https://www.facebook.com/JBRComputerSolution"><img border="0" src="imagenes/facebook.png" width="25" height="25"></a>
+        <a id="email" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img border="0" src="imagenes/email.png" width="25" height="25"></a>
+        </h2>
 
-    <div class="encabezado">
+    <h3 class="encabezado">
         
-        <nav>
+        <nav class="links">
             <li><a href="index.html">Home</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li><a href="">Informacion</a></li>
         </nav>
 
-    </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="contacto.html">Contacto</a>
+              <a href="#informacion">Informacion</a>
+            </div>
+          </div>
+
+        
+
+    </h3>
 
 </header>
 
@@ -73,6 +87,8 @@
         </div>
     
     </footer>
+
+    <script src="js/prueba.js"></script>
 
 </body>
 </html>
