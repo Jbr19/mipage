@@ -3,32 +3,23 @@
     html {
         background-color: red;
     }
-    
-    
+
+
     .encabezado_inicial {
         display: grid;
-        grid-template-columns: auto;
         padding: 7px;
         justify-content: center;
         height: 134px;
 
     }
-    
+
 
     .encabezado {
         padding: 2px;
-        
+
     }
 
-    .iconos {
-        background-color: #9b9b99;
-    }
-
-    a {
-        margin-left: 6px;
-    }
-
-    .links{
+    .links {
         display: none;
     }
 
@@ -37,10 +28,10 @@
         background-image: url("../imagenes/prueba2.png");
         padding: 176px;
         width: 73%;
-        
+
     }
-    
-    
+
+
 
     #cuadro_a_2 {
         display: grid;
@@ -48,26 +39,78 @@
         text-align: center;
 
     }
-    
-    
-    
-    
-    .info{
+
+
+
+
+    .info {
         display: grid;
     }
 
-    #contenido1 , #contenido2 {
+    #contenido1,
+    #contenido2 {
         margin-bottom: 7px;
     }
 
 
-    .contactar{
+    .contactar {
         display: grid;
         grid-template-columns: auto;
-    
+
     }
 
     #mensaje {
         width: 21rem;
+    }
+
+    /* boton de menu */
+
+    .dropbtn {
+        background-color: #e41f27;
+        border: 3px solid #2a2a2a;
+        border-radius: 10px;
+        color: white;
+        padding: 3px 7px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #2a2a2a;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        opacity: 0.80;
+        left: -3rem;
+        border: 3px solid #e41f27;
+        border-radius: 10px;
+    }
+
+    .dropdown-content a {
+        color: #ffffff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown a:hover {
+        background-color: #ddd;
+    }
+
+    .show {
+        display: block;
     }
 }

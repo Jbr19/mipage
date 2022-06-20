@@ -8,6 +8,7 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/contacto_diseno.css" rel="stylesheet">
     <link href="css/resolucion_movil.css" rel="stylesheet">
+    <link href="css/styloBotones.css" rel="stylesheet">
     <title>Contacto</title>
 </head>
 
@@ -15,15 +16,20 @@
     <header>
 
         <h1 class="encabezado_inicial">
-            <img id="portada" src="imagenes/portada1.png">
-            <a id="facebook" href="https://www.facebook.com/JBRComputerSolution"><img border="0"
-                    src="imagenes/facebook1.png" width="40" height="40"></a>
-
+            <div id="portada"></div>
         </h1>
+        <h2 class="iconos">
+            <a id="facebook" href="https://www.facebook.com/JBRComputerSolution"><img 
+                    src="imagenes/facebook.png" width="25" height="25"></a>
+
+            <a id="email" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img 
+                    src="imagenes/email.png" width="25" height="25"></a>
+
+        </h2>
 
         <div class="encabezado">
 
-            <nav>
+            <nav class="links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="">Informacion</a></li>
@@ -39,18 +45,19 @@
 
                 <div class="cuadro1">
 
-                <label for="nombreapellido">Nombre y Apellido</label>
-                <input type="text" id="nombreapellido" name="nombre" class="input-padron" required>
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido" name="nombre" class="input-padron" required>
 
-                <label for="correoelectronico">Correo Electronico</label>
-                <input type="email" id="correoelectronico" name="mail" class="input-padron" required
-                    placeholder="email@dominio.com">
+                    <label for="correoelectronico">Correo Electronico</label>
+                    <input type="email" id="correoelectronico" name="mail" class="input-padron" required
+                        placeholder="email@dominio.com">
 
-                <label for="telefono">Telefono</label>
-                <input type="tel" name="phone" id="telefono" class="input-padron" required placeholder="(xxx) xxx xxxx">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" name="phone" id="telefono" class="input-padron" required
+                        placeholder="(xxx) xxx xxxx">
 
-                <label for="mensaje">Mensaje</label>
-                <textarea  cols="70" rows="10" id="mensaje" name="message" class="input-padron" required></textarea>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea cols="70" rows="10" id="mensaje" name="message" class="input-padron" required></textarea>
 
                 </div>
                 <div class="cuadro2">
@@ -59,17 +66,17 @@
                     <br>
 
                     <label for="radio-email"><input type="radio" name="contacto" value="email"
-                        id="radio-email">Email</label>
+                            id="radio-email">Email</label>
 
-                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
-                        id="radio-telefono">Telefono</label>
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
+                            id="radio-telefono">Telefono</label>
 
-                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp"
-                        checked>WhatsApp</label>
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp"
+                            checked>WhatsApp</label>
 
-                        <h3>En cual horario prefiere ser atendido?</h3>
-                        <br>
-                         <input type="time" name="eta"> <input type="submit" value="Enviar datos">
+                    <h3>En cual horario prefiere ser atendido?</h3>
+                    <br>
+                    <input type="time" name="eta">
 
 
 
@@ -78,15 +85,15 @@
 
             </section>
 
-            <label class="checkbox"><input type="checkbox" checked> Le gustaria recivir novedades de la Barberia
-                Alura?</label>
+            <div class="boton">
 
-            <input type="submit" value="Enviar formulario" class="enviar">
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </div>
 
 
 
         </form>
-
         <table>
             <thead>
                 <tr>
@@ -106,8 +113,18 @@
                 </tr>
             </tbody>
         </table>
-
     </main>
+
+
+    <footer>
+        <div class="fontapie">
+            <img id="logotipo2" src="imagenes/logo.png">
+            <p id="copyrite"> &copy Copyright 2010 By JBR Computer Solutions</p>
+
+
+        </div>
+
+    </footer>
 
 </body>
 

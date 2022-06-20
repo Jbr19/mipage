@@ -36,6 +36,10 @@ nav {
     background-repeat: no-repeat;
 }
 
+.dropdown {
+    display: none;
+}
+
 
 
 .container {
