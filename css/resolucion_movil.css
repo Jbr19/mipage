@@ -10,7 +10,6 @@
         padding: 7px;
         justify-content: center;
         height: 134px;
-
     }
 
 
@@ -25,7 +24,7 @@
 
 
     #portada {
-        background-image: url("../imagenes/prueba2.png");
+        background-image: url("../imagenes/Banner\ Movil.png");
         padding: 176px;
         width: 73%;
 
@@ -113,4 +112,12 @@
     .show {
         display: block;
     }
+}
+
+.contactar{
+    text-align: center;
+}
+
+.enviar {
+width: 50%;
 }

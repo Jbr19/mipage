@@ -18,16 +18,8 @@
         <h1 class="encabezado_inicial">
             <div id="portada"></div>
         </h1>
-        <h2 class="iconos">
-            <a id="facebook" href="https://www.facebook.com/JBRComputerSolution"><img 
-                    src="imagenes/facebook.png" width="25" height="25"></a>
 
-            <a id="email" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img 
-                    src="imagenes/email.png" width="25" height="25"></a>
-
-        </h2>
-
-        <div class="encabezado">
+        <h2 class="encabezado">
 
             <nav class="links">
                 <li><a href="index.html">Home</a></li>
@@ -35,7 +27,16 @@
                 <li><a href="">Informacion</a></li>
             </nav>
 
-        </div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="#informacion">Informacion</a>
+                </div>
+            </div>
+
+        </h2>
 
     </header>
 
@@ -125,6 +126,8 @@
         </div>
 
     </footer>
+
+    <script src="js/prueba.js"></script>
 
 </body>
 
