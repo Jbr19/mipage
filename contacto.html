@@ -7,31 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/contacto_diseno.css" rel="stylesheet">
-    <link href="css/resolucion_movil.css" rel="stylesheet">
+    <link href="css/repositorio_movil.css" rel="stylesheet">
     <title>Contacto</title>
 </head>
 
 <body>
-    <header>
+    <img id="banner" src="imagenes/TEL 939-213-2696.svg">
+    <div id="movil"></div>
 
-        <h1 class="encabezado_inicial">
-            <img id="portada" src="imagenes/portada1.png">
-            <a id="facebook" href="https://www.facebook.com/JBRComputerSolution"><img border="0"
-                    src="imagenes/facebook1.png" width="40" height="40"></a>
+    <section class="cuadro__links">
+        <nav id="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="">Servicio</a></li>
+        </nav>
 
-        </h1>
 
-        <div class="encabezado">
 
-            <nav>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="">Informacion</a></li>
-            </nav>
-
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="#informacion">Servicio</a>
+            </div>
         </div>
-
-    </header>
+    </section>
 
     <main>
         <form action="envio.php" method="post">
@@ -39,18 +40,19 @@
 
                 <div class="cuadro1">
 
-                <label for="nombreapellido">Nombre y Apellido</label>
-                <input type="text" id="nombreapellido" name="nombre" class="input-padron" required>
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido" name="nombre" class="input-padron" required>
 
-                <label for="correoelectronico">Correo Electronico</label>
-                <input type="email" id="correoelectronico" name="mail" class="input-padron" required
-                    placeholder="email@dominio.com">
+                    <label for="correoelectronico">Correo Electronico</label>
+                    <input type="email" id="correoelectronico" name="mail" class="input-padron" required
+                        placeholder="email@dominio.com">
 
-                <label for="telefono">Telefono</label>
-                <input type="tel" name="phone" id="telefono" class="input-padron" required placeholder="(xxx) xxx xxxx">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" name="phone" id="telefono" class="input-padron" required
+                        placeholder="(xxx) xxx xxxx">
 
-                <label for="mensaje">Mensaje</label>
-                <textarea  cols="70" rows="10" id="mensaje" name="message" class="input-padron" required></textarea>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea cols="70" rows="10" id="mensaje" name="message" class="input-padron" required></textarea>
 
                 </div>
                 <div class="cuadro2">
@@ -59,17 +61,17 @@
                     <br>
 
                     <label for="radio-email"><input type="radio" name="contacto" value="email"
-                        id="radio-email">Email</label>
+                            id="radio-email">Email</label>
 
-                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
-                        id="radio-telefono">Telefono</label>
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
+                            id="radio-telefono">Telefono</label>
 
-                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp"
-                        checked>WhatsApp</label>
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp"
+                            checked>WhatsApp</label>
 
-                        <h3>En cual horario prefiere ser atendido?</h3>
-                        <br>
-                         <input type="time" name="eta"> <input type="submit" value="Enviar datos">
+                    <h3>En cual horario prefiere ser atendido?</h3>
+                    <br>
+                    <input id="cuadro_hora" type="time" name="eta">
 
 
 
@@ -78,15 +80,15 @@
 
             </section>
 
-            <label class="checkbox"><input type="checkbox" checked> Le gustaria recivir novedades de la Barberia
-                Alura?</label>
+            <div class="boton">
 
-            <input type="submit" value="Enviar formulario" class="enviar">
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </div>
 
 
 
         </form>
-
         <table>
             <thead>
                 <tr>
@@ -106,8 +108,20 @@
                 </tr>
             </tbody>
         </table>
-
     </main>
+
+
+    <footer>
+        <div class="fontapie">
+            <img id="logotipo2" src="imagenes/logo.svg">
+            <p id="copyrite"> &copy Copyright 2010 By JBR Computer Solutions</p>
+
+
+        </div>
+
+    </footer>
+
+    <script src="js/boton_menu.js"></script>
 
 </body>
 
