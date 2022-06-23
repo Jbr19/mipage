@@ -1,58 +1,41 @@
-body{
+body {
     background-color: #9b9b9b;
+    margin: 0%;
+    padding: 0%;
 }
 
-
-.encabezado_inicial {
-    background: #9b9b9b;
-    display: flex;
-    grid-template-columns: auto;
-    padding: 10px;
-    justify-content: center
+#banner {
+    width: 100%;
 }
 
-
-
-.encabezado {
-    background: #9b9b9b;
-    display: flex;
-    grid-template-columns: auto;
-    padding: 10px;
-    justify-content: space-around;
+.dropdown {
+    display: none;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #838383;
-    border: 3px solid rgba(0, 0, 0, 0.8);
+    background-color: #d9d9d9;
     border-radius: 4px;
 
 }
 
-
-#portada {
-    display: grid;
-    grid-template-columns: auto;
-    flex-direction: column;
-    padding: 60px;
-    width: 72%;
-    background-image: url("../imagenes/portada1.png");
-    background-repeat: no-repeat;
+a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-.dropdown{
-    display: none;
-}
-
-.iconos{
-    background-color: #9b9b9b;
+a:hover {
+    color: red;
+    text-decoration: underline;
 }
 
 
-
-.contactar{
+.contactar {
     background-color: #9b9b9b;
     display: grid;
     grid-template-columns: auto auto;
@@ -62,20 +45,21 @@ nav {
 }
 
 
-form label, form legend{
+form label,
+form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-.form-padron{
+.form-padron {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
 
-.checkbox{
+.checkbox {
     margin: 20px 0;
 }
 
@@ -87,7 +71,7 @@ form label, form legend{
     margin-bottom: 1rem;
 }
 
-.enviar{
+.enviar {
     width: 40%;
     padding: 15px 0;
     font-size: 18px;
@@ -100,26 +84,27 @@ form label, form legend{
     cursor: pointer;
 }
 
-.enviar:hover{
+.enviar:hover {
     color: #E41F27;
-    background:#FFFFFF ;
+    background: #FFFFFF;
     transform: scale(1.2);
 }
 
 
 
-table{
-    margin:auto;
+table {
+    margin: auto;
     margin-bottom: 5px;
 }
 
-thead{
+thead {
     background: #555555;
-    color:white;
+    color: white;
     font-weight: bold;
 }
 
-td, th{
+td,
+th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
@@ -136,10 +121,9 @@ td, th{
 }
 
 #logotipo2 {
-    height: 176px;
+    height: 11rem;
     border-radius: 100px;
-    background-color: #d9d9d9;
-
+    background-color: #d9d9d9;  
 }
 
 #copyrite {

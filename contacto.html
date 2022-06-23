@@ -7,38 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/contacto_diseno.css" rel="stylesheet">
-    <link href="css/resolucion_movil.css" rel="stylesheet">
-    <link href="css/styloBotones.css" rel="stylesheet">
+    <link href="css/repositorio_movil.css" rel="stylesheet">
     <title>Contacto</title>
 </head>
 
 <body>
-    <header>
+    <img id="banner" src="imagenes/TEL 939-213-2696.svg">
+    <div id="movil"></div>
 
-        <h1 class="encabezado_inicial">
-            <div id="portada"></div>
-        </h1>
+    <section class="cuadro__links">
+        <nav id="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="">Servicio</a></li>
+        </nav>
 
-        <h2 class="encabezado">
 
-            <nav class="links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="">Informacion</a></li>
-            </nav>
 
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Menu</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a href="contacto.html">Contacto</a>
-                    <a href="#informacion">Informacion</a>
-                </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="#informacion">Servicio</a>
             </div>
-
-        </h2>
-
-    </header>
+        </div>
+    </section>
 
     <main>
         <form action="envio.php" method="post">
@@ -77,7 +71,7 @@
 
                     <h3>En cual horario prefiere ser atendido?</h3>
                     <br>
-                    <input type="time" name="eta">
+                    <input id="cuadro_hora" type="time" name="eta">
 
 
 
@@ -119,7 +113,7 @@
 
     <footer>
         <div class="fontapie">
-            <img id="logotipo2" src="imagenes/logo.png">
+            <img id="logotipo2" src="imagenes/logo.svg">
             <p id="copyrite"> &copy Copyright 2010 By JBR Computer Solutions</p>
 
 
@@ -127,7 +121,7 @@
 
     </footer>
 
-    <script src="js/prueba.js"></script>
+    <script src="js/boton_menu.js"></script>
 
 </body>
 
